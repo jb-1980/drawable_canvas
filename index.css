@@ -1,0 +1,23 @@
+canvas {
+  background: radial-gradient(#eee 15%, transparent 16%) 0 0/20px 20px;
+  cursor: crosshair;
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  margin: 5px 0 2px 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
