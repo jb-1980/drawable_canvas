@@ -17,6 +17,7 @@ const Canvas = function(width, height) {
   this.updateState = state => {
     this.history.push(this.currentState)
     this.currentState = state
+    console.log(this.history)
   }
 
 }
